@@ -1,0 +1,63 @@
+:root{
+    --font: 'Rubik Mono One', sans-serif;
+    --font2: 'Roboto', sans-serif;
+    --clr1: #141414;
+    --clr2: #303030;
+    --clr3: #868686;
+    --clr4: #dddddd;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 2vh;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    margin-right: 5vw;
+}
+
+nav ul li a{
+    color: var(--clr4);
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: var(--clr1);
+    font-family: var(--font2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+}
+
+.landing h1{
+    font-size: 20rem;
+    font-weight: 900;
+    display: inline-block;
+    background: linear-gradient(0deg, #181818 0%, rgb(165, 165, 165) 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
